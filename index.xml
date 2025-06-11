@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>charles</title>
+        <title></title>
         <link>https://charles-7777.github.io/hugo-blog/</link>
-        <description>Recent content on charles</description>
+        <description>Recent content on </description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Charles Lv</copyright><atom:link href="https://charles-7777.github.io/hugo-blog/index.xml" rel="self" type="application/rss+xml" /><item>
@@ -240,7 +240,7 @@
 </description>
         </item>
         <item>
-        <title>Archives</title>
+        <title>归档</title>
         <link>https://charles-7777.github.io/hugo-blog/archives/</link>
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
         
@@ -248,11 +248,28 @@
         <description></description>
         </item>
         <item>
-        <title>Links</title>
-        <link>https://charles-7777.github.io/hugo-blog/links/</link>
+        <title>关于</title>
+        <link>https://charles-7777.github.io/hugo-blog/%E5%85%B3%E4%BA%8E/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://charles-7777.github.io/hugo-blog/links/</guid>
+        <guid>https://charles-7777.github.io/hugo-blog/%E5%85%B3%E4%BA%8E/</guid>
+        <description>&lt;p&gt;This is a test page for i18n support.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>搜索</title>
+        <link>https://charles-7777.github.io/hugo-blog/search/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://charles-7777.github.io/hugo-blog/search/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>友链</title>
+        <link>https://charles-7777.github.io/hugo-blog/%E5%8F%8B%E9%93%BE/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://charles-7777.github.io/hugo-blog/%E5%8F%8B%E9%93%BE/</guid>
         <description>&lt;p&gt;To use this feature, add &lt;code&gt;links&lt;/code&gt; section to frontmatter.&lt;/p&gt;
 &lt;p&gt;This page&amp;rsquo;s frontmatter:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -280,23 +297,6 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;&lt;code&gt;image&lt;/code&gt; field accepts both local and external images.&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Search</title>
-        <link>https://charles-7777.github.io/hugo-blog/search/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://charles-7777.github.io/hugo-blog/search/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>关于</title>
-        <link>https://charles-7777.github.io/hugo-blog/%E5%85%B3%E4%BA%8E/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://charles-7777.github.io/hugo-blog/%E5%85%B3%E4%BA%8E/</guid>
-        <description>&lt;p&gt;This is a test page for i18n support.&lt;/p&gt;
 </description>
         </item>
         
