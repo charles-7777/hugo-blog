@@ -6,7 +6,7 @@
 
 <link rel='canonical' href='https://charles-7777.github.io/hugo-blog/tags/stack/'>
 
-<link rel="stylesheet" href="/hugo-blog/scss/style.min.e7c3b2fe4f3c1068be323315f6d8c7ef77136d4608ef75caae44c89964e60b3c.css"><meta property='og:title' content="Tag: Stack - ">
+<link rel="stylesheet" href="/hugo-blog/scss/style.min.333cc318392559fa62d20906715eee5cbbf6dbb081fee48b778e5973195fcd38.css"><meta property='og:title' content="Tag: Stack - ">
 <meta property='og:description' content="">
 <meta property='og:url' content='https://charles-7777.github.io/hugo-blog/tags/stack/'>
 <meta property='og:site_name' content=''>
@@ -545,6 +545,53 @@
     }
 
     initScrollTop();
+</script>
+
+<style>
+    #TableOfContents > ul, ol {
+        ul, ol {
+            display: none;
+        }
+        .open {
+            display: block;
+        }
+    }
+</style>
+
+<script>
+    function initTocHide() {
+        
+        let toc = document.querySelector(".widget--toc");
+        if (!toc) {
+            return;
+        }
+        
+        window.addEventListener('scroll', function() {
+            
+            let openUl = document.querySelectorAll(".open");
+            if (openUl.length > 0) {
+              openUl.forEach((ul) => {
+                ul.classList.remove("open")
+              })
+            }
+            
+            let currentLi = document.querySelector(".active-class");
+            if (!currentLi) {
+                return
+            }
+            
+            if (currentLi.children.length > 1) {
+                currentLi.children[1].classList.add("open")
+            }
+            
+            let ul = currentLi.parentElement;
+            do {
+                ul.classList.add("open");
+                ul = ul.parentElement.parentElement
+            } while (ul !== undefined && (ul.localName === 'ul' || ul.localName === 'ol'))
+        });
+    }
+    initTocHide()
 </script>
 
 
