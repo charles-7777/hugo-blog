@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="1.github 创建public仓库用来存放照片\n2.创建token\ntoken将来PicGo操作你的github仓库来上传图片时要用到，在 GitHub 账户下 Setting - Developer setting - Personal access tokens(classic) 下创建一个不过期(no expiration)的 Token，权限需要开启 repo.这个我们在用Github action 来部署博客仓库时已经创建了，用那个就好.token 在创建时只显示一次，要保存好哦！\n3.配置PicGo\n###github 搜索PicGo 然后安装\n###图床具体参数配置\n1 2 3 4 仓库名 分支名 对应于之前你创建的GitHub仓库 Token就是前面创建的Token,被PicGo用来上传照片到长仓库 路径可以自定义 自定义域名格式:https://cdn.jsdelivr.net/gh/用户名/仓库名@分支名 4.Typora\nTypora 可搭配PicGo使用\n如果Typora显示failed to fetch ；检查PicGo server 设置的监听地址是否一致（点击Typora图片设置中的验证图片上传）\n">
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="1.创建public仓库用来存放照片 2.创建token token将来PicGo操作你的github仓库来上传图片时要用到，在 GitHub 账户下 Setting - Developer setting - Personal access tokens(classic) 下创建一个不过期(no expiration)的 Token，权限需要开启 repo.这个我们在用Github action 来部署博客仓库时已经创建了，用那个就好.token 在创建时只显示一次，要保存好哦！\n3.配置PicGo ###github 搜索PicGo 然后安装\n###图床具体参数配置\n1 2 3 4 仓库名 分支名 对应于之前你创建的GitHub仓库 Token就是前面创建的Token,被PicGo用来上传照片到长仓库 路径可以自定义 自定义域名格式:https://cdn.jsdelivr.net/gh/用户名/仓库名@分支名 4.Typora Typora 可搭配PicGo使用\n如果Typora显示failed to fetch ；检查PicGo server 设置的监听地址是否一致（点击Typora图片设置中的验证图片上传）\n">
 <title>Github &#43; PicGo 搭建图床</title>
 
 <link rel='canonical' href='https://charles-7777.github.io/hugo-blog/p/github--picgo-%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A/'>
 
 <link rel="stylesheet" href="/hugo-blog/scss/style.min.333cc318392559fa62d20906715eee5cbbf6dbb081fee48b778e5973195fcd38.css"><meta property='og:title' content="Github + PicGo 搭建图床">
-<meta property='og:description' content="1.github 创建public仓库用来存放照片\n2.创建token\ntoken将来PicGo操作你的github仓库来上传图片时要用到，在 GitHub 账户下 Setting - Developer setting - Personal access tokens(classic) 下创建一个不过期(no expiration)的 Token，权限需要开启 repo.这个我们在用Github action 来部署博客仓库时已经创建了，用那个就好.token 在创建时只显示一次，要保存好哦！\n3.配置PicGo\n###github 搜索PicGo 然后安装\n###图床具体参数配置\n1 2 3 4 仓库名 分支名 对应于之前你创建的GitHub仓库 Token就是前面创建的Token,被PicGo用来上传照片到长仓库 路径可以自定义 自定义域名格式:https://cdn.jsdelivr.net/gh/用户名/仓库名@分支名 4.Typora\nTypora 可搭配PicGo使用\n如果Typora显示failed to fetch ；检查PicGo server 设置的监听地址是否一致（点击Typora图片设置中的验证图片上传）\n">
+<meta property='og:description' content="1.创建public仓库用来存放照片 2.创建token token将来PicGo操作你的github仓库来上传图片时要用到，在 GitHub 账户下 Setting - Developer setting - Personal access tokens(classic) 下创建一个不过期(no expiration)的 Token，权限需要开启 repo.这个我们在用Github action 来部署博客仓库时已经创建了，用那个就好.token 在创建时只显示一次，要保存好哦！\n3.配置PicGo ###github 搜索PicGo 然后安装\n###图床具体参数配置\n1 2 3 4 仓库名 分支名 对应于之前你创建的GitHub仓库 Token就是前面创建的Token,被PicGo用来上传照片到长仓库 路径可以自定义 自定义域名格式:https://cdn.jsdelivr.net/gh/用户名/仓库名@分支名 4.Typora Typora 可搭配PicGo使用\n如果Typora显示failed to fetch ；检查PicGo server 设置的监听地址是否一致（点击Typora图片设置中的验证图片上传）\n">
 <meta property='og:url' content='https://charles-7777.github.io/hugo-blog/p/github--picgo-%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A/'>
 <meta property='og:site_name' content=''>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-06-12T19:33:46&#43;08:00'/><meta property='article:modified_time' content='2025-06-12T20:30:33&#43;08:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-06-12T19:33:46&#43;08:00'/><meta property='article:modified_time' content='2025-06-12T20:33:06&#43;08:00'/>
 <meta name="twitter:title" content="Github + PicGo 搭建图床">
-<meta name="twitter:description" content="1.github 创建public仓库用来存放照片\n2.创建token\ntoken将来PicGo操作你的github仓库来上传图片时要用到，在 GitHub 账户下 Setting - Developer setting - Personal access tokens(classic) 下创建一个不过期(no expiration)的 Token，权限需要开启 repo.这个我们在用Github action 来部署博客仓库时已经创建了，用那个就好.token 在创建时只显示一次，要保存好哦！\n3.配置PicGo\n###github 搜索PicGo 然后安装\n###图床具体参数配置\n1 2 3 4 仓库名 分支名 对应于之前你创建的GitHub仓库 Token就是前面创建的Token,被PicGo用来上传照片到长仓库 路径可以自定义 自定义域名格式:https://cdn.jsdelivr.net/gh/用户名/仓库名@分支名 4.Typora\nTypora 可搭配PicGo使用\n如果Typora显示failed to fetch ；检查PicGo server 设置的监听地址是否一致（点击Typora图片设置中的验证图片上传）\n">
+<meta name="twitter:description" content="1.创建public仓库用来存放照片 2.创建token token将来PicGo操作你的github仓库来上传图片时要用到，在 GitHub 账户下 Setting - Developer setting - Personal access tokens(classic) 下创建一个不过期(no expiration)的 Token，权限需要开启 repo.这个我们在用Github action 来部署博客仓库时已经创建了，用那个就好.token 在创建时只显示一次，要保存好哦！\n3.配置PicGo ###github 搜索PicGo 然后安装\n###图床具体参数配置\n1 2 3 4 仓库名 分支名 对应于之前你创建的GitHub仓库 Token就是前面创建的Token,被PicGo用来上传照片到长仓库 路径可以自定义 自定义域名格式:https://cdn.jsdelivr.net/gh/用户名/仓库名@分支名 4.Typora Typora 可搭配PicGo使用\n如果Typora显示failed to fetch ；检查PicGo server 设置的监听地址是否一致（点击Typora图片设置中的验证图片上传）\n">
     <link rel="shortcut icon" href="/hugo-blog/favicon2.ico" />
 
     </head>
@@ -237,7 +237,41 @@
     </ol>
 </aside>
 
-    
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目录</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#1创建public仓库用来存放照片">1.创建public仓库用来存放照片</a></li>
+    <li><a href="#2创建token">2.创建token</a></li>
+    <li><a href="#3配置picgo">3.配置PicGo</a></li>
+    <li><a href="#4typora">4.<a href="https://github.com/shuhongfan/TyporaCrack">Typora</a></a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
 
             <main class="main full-width">
     <article class="main-article">
@@ -300,9 +334,8 @@
     <section class="article-content">
     
     
-    <p>1.github 创建public仓库用来存放照片</p>
-<hr>
-<p><img src="https://cdn.jsdelivr.net/gh/charles-7777/ImageBed@main/blog/image-20250612194003078.png"
+    <h2 id="1创建public仓库用来存放照片">1.创建public仓库用来存放照片
+</h2><p><img src="https://cdn.jsdelivr.net/gh/charles-7777/ImageBed@main/blog/image-20250612194003078.png"
 	
 	
 	
@@ -312,9 +345,8 @@
 	
 	
 ></p>
-<p>2.创建token</p>
-<hr>
-<p>token将来PicGo操作你的github仓库来上传图片时要用到，在 GitHub 账户下 <code>Setting - Developer setting - Personal access tokens(classic)</code> 下创建一个不过期(no expiration)的 Token，权限需要开启 <code>repo</code>.这个我们在用Github action 来部署博客仓库时已经创建了，用那个就好.token 在创建时只显示一次，要保存好哦！</p>
+<h2 id="2创建token">2.创建token
+</h2><p>token将来PicGo操作你的github仓库来上传图片时要用到，在 GitHub 账户下 <code>Setting - Developer setting - Personal access tokens(classic)</code> 下创建一个不过期(no expiration)的 Token，权限需要开启 <code>repo</code>.这个我们在用Github action 来部署博客仓库时已经创建了，用那个就好.token 在创建时只显示一次，要保存好哦！</p>
 <p><img src="https://cdn.jsdelivr.net/gh/charles-7777/ImageBed@main/blog/image-20250612194911382.png"
 	
 	
@@ -325,8 +357,8 @@
 	
 	
 ></p>
-<p>3.配置PicGo</p>
-<p>###github 搜索<a class="link" href="https://github.com/Molunerfinn/PicGo"  target="_blank" rel="noopener"
+<h2 id="3配置picgo">3.配置PicGo
+</h2><p>###github 搜索<a class="link" href="https://github.com/Molunerfinn/PicGo"  target="_blank" rel="noopener"
     >PicGo</a> 然后安装</p>
 <p>###图床具体参数配置</p>
 <p><img src="https://cdn.jsdelivr.net/gh/charles-7777/ImageBed@main/blog/image-20250612195909612.png"
@@ -353,9 +385,9 @@
 </span></span><span class="line"><span class="cl">自定义域名格式:https://cdn.jsdelivr.net/gh/用户名/仓库名@分支名
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p>4.<a class="link" href="https://github.com/shuhongfan/TyporaCrack"  target="_blank" rel="noopener"
-    >Typora</a></p>
-<p>Typora 可搭配PicGo使用</p>
+</div><h2 id="4typora">4.<a class="link" href="https://github.com/shuhongfan/TyporaCrack"  target="_blank" rel="noopener"
+    >Typora</a>
+</h2><p>Typora 可搭配PicGo使用</p>
 <p><img src="https://cdn.jsdelivr.net/gh/charles-7777/ImageBed@main/blog/image-20250612201005537.png"
 	
 	
@@ -406,7 +438,7 @@
 
 
         <span>
-            最后更新于 2025-06-12 20:30 &#43;0800
+            最后更新于 2025-06-12 20:33 &#43;0800
         </span>
     </section></footer>
 

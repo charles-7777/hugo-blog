@@ -7,15 +7,14 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Charles Lv</copyright>
-        <lastBuildDate>Thu, 12 Jun 2025 20:30:33 +0800</lastBuildDate><atom:link href="https://charles-7777.github.io/hugo-blog/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 12 Jun 2025 20:33:06 +0800</lastBuildDate><atom:link href="https://charles-7777.github.io/hugo-blog/post/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Github &#43; PicGo 搭建图床</title>
         <link>https://charles-7777.github.io/hugo-blog/p/github--picgo-%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A/</link>
         <pubDate>Thu, 12 Jun 2025 19:33:46 +0800</pubDate>
         
         <guid>https://charles-7777.github.io/hugo-blog/p/github--picgo-%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A/</guid>
-        <description>&lt;p&gt;1.github 创建public仓库用来存放照片&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/charles-7777/ImageBed@main/blog/image-20250612194003078.png&#34;
+        <description>&lt;h2 id=&#34;1创建public仓库用来存放照片&#34;&gt;1.创建public仓库用来存放照片
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/charles-7777/ImageBed@main/blog/image-20250612194003078.png&#34;
 	
 	
 	
@@ -25,9 +24,8 @@
 	
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;2.创建token&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;token将来PicGo操作你的github仓库来上传图片时要用到，在 GitHub 账户下 &lt;code&gt;Setting - Developer setting - Personal access tokens(classic)&lt;/code&gt; 下创建一个不过期(no expiration)的 Token，权限需要开启 &lt;code&gt;repo&lt;/code&gt;.这个我们在用Github action 来部署博客仓库时已经创建了，用那个就好.token 在创建时只显示一次，要保存好哦！&lt;/p&gt;
+&lt;h2 id=&#34;2创建token&#34;&gt;2.创建token
+&lt;/h2&gt;&lt;p&gt;token将来PicGo操作你的github仓库来上传图片时要用到，在 GitHub 账户下 &lt;code&gt;Setting - Developer setting - Personal access tokens(classic)&lt;/code&gt; 下创建一个不过期(no expiration)的 Token，权限需要开启 &lt;code&gt;repo&lt;/code&gt;.这个我们在用Github action 来部署博客仓库时已经创建了，用那个就好.token 在创建时只显示一次，要保存好哦！&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/charles-7777/ImageBed@main/blog/image-20250612194911382.png&#34;
 	
 	
@@ -38,8 +36,8 @@
 	
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;3.配置PicGo&lt;/p&gt;
-&lt;p&gt;###github 搜索&lt;a class=&#34;link&#34; href=&#34;https://github.com/Molunerfinn/PicGo&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;h2 id=&#34;3配置picgo&#34;&gt;3.配置PicGo
+&lt;/h2&gt;&lt;p&gt;###github 搜索&lt;a class=&#34;link&#34; href=&#34;https://github.com/Molunerfinn/PicGo&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;PicGo&lt;/a&gt; 然后安装&lt;/p&gt;
 &lt;p&gt;###图床具体参数配置&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/charles-7777/ImageBed@main/blog/image-20250612195909612.png&#34;
@@ -66,9 +64,9 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;自定义域名格式:https://cdn.jsdelivr.net/gh/用户名/仓库名@分支名
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;4.&lt;a class=&#34;link&#34; href=&#34;https://github.com/shuhongfan/TyporaCrack&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Typora&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Typora 可搭配PicGo使用&lt;/p&gt;
+&lt;/div&gt;&lt;h2 id=&#34;4typora&#34;&gt;4.&lt;a class=&#34;link&#34; href=&#34;https://github.com/shuhongfan/TyporaCrack&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Typora&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;Typora 可搭配PicGo使用&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/charles-7777/ImageBed@main/blog/image-20250612201005537.png&#34;
 	
 	
