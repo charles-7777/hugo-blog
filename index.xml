@@ -36,12 +36,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;h2 id=&#34;配置picgo&#34;&gt;配置PicGo
-&lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;github 搜索&lt;a class=&#34;link&#34; href=&#34;https://github.com/Molunerfinn/PicGo&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;PicGo&lt;/a&gt; 然后安装&lt;/p&gt;&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;图床具体参数配置&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/charles-7777/ImageBed@main/blog/image-20250612195909612.png&#34;
+&lt;/h2&gt;&lt;h3 id=&#34;github-搜索picgo-然后安装&#34;&gt;github 搜索&lt;a class=&#34;link&#34; href=&#34;https://github.com/Molunerfinn/PicGo&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;PicGo&lt;/a&gt; 然后安装
+&lt;/h3&gt;&lt;h3 id=&#34;图床具体参数配置&#34;&gt;图床具体参数配置
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/charles-7777/ImageBed@main/blog/image-20250612195909612.png&#34;
 	
 	
 	
@@ -51,22 +49,12 @@
 	
 	
 &gt;&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;仓库名 分支名 对应于之前你创建的GitHub仓库
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Token就是前面创建的Token,被PicGo用来上传照片到长仓库
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;路径可以自定义
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;自定义域名格式:https://cdn.jsdelivr.net/gh/用户名/仓库名@分支名
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;h2 id=&#34;typora&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/shuhongfan/TyporaCrack&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Typora&lt;/a&gt;
+&lt;blockquote&gt;
+&lt;p&gt;仓库名 分支名 对应于之前你创建的GitHub仓库&lt;br&gt;
+Token就是前面创建的Token,被PicGo用来上传照片到长仓库&lt;br&gt;
+路径可以自定义&lt;br&gt;
+自定义域名格式:https://cdn.jsdelivr.net/gh/用户名/仓库名@分支名&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h2 id=&#34;typora&#34;&gt;Typora
 &lt;/h2&gt;&lt;p&gt;Typora 可搭配PicGo使用&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/charles-7777/ImageBed@main/blog/image-20250612201005537.png&#34;
 	
@@ -78,7 +66,20 @@
 	
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;如果Typora显示failed to fetch ；检查PicGo  server 设置的监听地址是否一致（点击Typora图片设置中的验证图片上传）&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;若PicGo显示unable to verify the first certificate at TLS,无法上传，则可能是你的网络加速工具造成的某些网络加速工具可能会修改网络流量，可能与 SSL证书验证机制发生冲突。这可能导致 SSL 证书验证失败，因为服务器的证书无法正常验证，从而出现类似 &amp;ldquo;unable to verify the first certificate&amp;rdquo; 的错误。例如我之前用Watt Toolkit就出现了：&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/charles-7777/ImageBed@main/blog/image-20250613102831957.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20250613102831957&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;如果Typora显示failed to fetch ；检查PicGo  server 设置的监听地址是否一致（点击Typora图片设置中的验证图片上传）&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/charles-7777/ImageBed@main/blog/image-20250612202248915.png&#34;
 	
 	
