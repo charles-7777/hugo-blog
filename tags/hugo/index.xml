@@ -7,7 +7,7 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Charles Lv</copyright>
-        <lastBuildDate>Fri, 13 Jun 2025 13:47:58 +0800</lastBuildDate><atom:link href="https://charles-7777.github.io/hugo-blog/tags/hugo/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 13 Jun 2025 14:00:19 +0800</lastBuildDate><atom:link href="https://charles-7777.github.io/hugo-blog/tags/hugo/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Github &#43; PicGo 搭建图床</title>
         <link>https://charles-7777.github.io/hugo-blog/p/github--picgo-%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A/</link>
         <pubDate>Thu, 12 Jun 2025 19:33:46 +0800</pubDate>
@@ -324,6 +324,10 @@ Token就是前面创建的Token,被PicGo用来上传照片到长仓库&lt;br&gt;
 		data-flex-basis=&#34;606px&#34;
 	
 &gt;&lt;/p&gt;
+&lt;blockquote class=&#34;alert alert-tip&#34;&gt;
+    &lt;p&gt;&lt;strong&gt;参考链接&lt;/strong&gt;&lt;br&gt;
+&lt;a class=&#34;link&#34; href=&#34;https://letere-gzj.github.io/hugo-stack/tags/hugo/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://letere-gzj.github.io/hugo-stack/tags/hugo/&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
 </description>
         </item>
         
